@@ -25,5 +25,5 @@ This project is designed to strengthen my programming skills while building usef
 
 ## Author
 
-Sasha Vlasova
+Sasha Vlasova,
 Mathematics and Computer Science Student at Carroll University
