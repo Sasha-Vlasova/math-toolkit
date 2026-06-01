@@ -44,6 +44,14 @@ while True:
                 result = solve_quadratic(a, b, c)
                 print("Solution:", result)
 
+                
+                analysis = vieta_analysis(a, b, c)
+
+                print("Vieta Analysi:")
+                print("Sum of roots:", analysis["sum_of_roots"])
+                print("Product of roots:", analysis["product_of_roots"])
+
+
         except ValueError:
             print("Error: Please enter valid numbers only.")
 
@@ -54,12 +62,6 @@ while True:
 
             result = solve_linear(a, b)
             print("Solution:", result)
-
-            analysis = vieta_analysis(a, b, c)
-
-            print("Vieta Analysis:")
-            print("Sum of roots:", analysis["sum_of_roots"])
-            print("Product of roots:", analysis["product_of_roots"])
 
 
         except ValueError:
